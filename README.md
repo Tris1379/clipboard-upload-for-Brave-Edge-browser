@@ -28,3 +28,6 @@ This project demonstrates an understanding of the Chromium security model:
 - **Event Interception:** Uses event capture to block default browser behavior and inject a custom UI into the DOM.
 
 ## 🖼 Preview
+
+https://github.com/user-attachments/assets/98985aef-4a44-4368-b69a-229ef918bb3b
+
