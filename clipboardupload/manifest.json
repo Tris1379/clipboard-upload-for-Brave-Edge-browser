@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Brave/Edge Upload Helper",
+  "version": "1.4",
+  "permissions": ["clipboardRead", "activeTab"],
+  "host_permissions": ["<all_urls>"],
+  "background": { "service_worker": "background.js" },
+  "content_scripts": [{
+    "matches": ["<all_urls>"],
+    "js": ["content.js"],
+    "css": ["style.css"]
+  }]
+}
